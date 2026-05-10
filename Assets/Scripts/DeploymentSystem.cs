@@ -7,14 +7,14 @@ public class DeploymentSystem : MonoBehaviour
     public Transform[] lokacije;
     public int cijenaVojnika = 10;
 
-    private int tenutnaLokcija = 0;
+    private int trenutnaLokcija = 0;
     public void DeployUnit() {
         if(economy.coins >= cijenaVojnika) {
-            if(trenutnaLokacija < lokacije.Length) {
-                Instantiate(vojnik, lokacije[trenutnaLokacija].position, lokacije[trenutnaLokacija].rotation);
+            if(trenutnaLokcija < lokacije.Length) {
+                Instantiate(vojnik, lokacije[trenutnaLokcija].position, lokacije[trenutnaLokcija].rotation);
                 economy.coins -= cijenaVojnika;
-                trenutnaLokacija++;
-                Debug.Log("Vojnik postavljen, ostala mjesta: " + (lokacije.Length + trenutnaLokacija));
+                trenutnaLokcija++;
+                Debug.Log("Vojnik postavljen, ostala mjesta: " + (lokacije.Length + trenutnaLokcija));
             } else {
                 Debug.Log("Toranj je pun");
             }
