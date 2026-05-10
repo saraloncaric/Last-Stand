@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class EconomyManager : MonoBehaviour
 {
-    public int coins = 10;
+    public int coins = 50;
     public void EnemyKilled() {
         coins += 4;
         Debug.Log("Zaradio si 4 coinsa! Trenutno stanje coinsa: " + coins);
