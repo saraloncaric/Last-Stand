@@ -1,13 +1,27 @@
 using UnityEngine;
 
-public class WeaponStats : MonoBehaviour
-
+public class Health : MonoBehaviour
 {
+    public float maxHealth = 100f;
+    public float currentHealth;
 
-    public float damage = 20f;
+    void Start()
+    {
+        currentHealth = maxHealth;
+    }
 
-    public float projectileSpeed = 15f;
+    public void TakeDamage(float amount)
+    {
+        currentHealth -= amount;
+        if (currentHealth <= 0f)
+        {
+            currentHealth = 0f;
+            Die();
+        }
+    }
 
-    public float fireRate = 1.5f;
-
+    void Die()
+    {
+        Destroy(gameObject);
+    }
 }
