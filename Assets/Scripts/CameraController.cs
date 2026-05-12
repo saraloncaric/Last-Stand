@@ -30,5 +30,11 @@ public class CameraController : MonoBehaviour
         float scroll = Mouse.current.scroll.ReadValue().y;
         Camera.main.fieldOfView -= scroll * zoomSpeed;
         Camera.main.fieldOfView = Mathf.Clamp(Camera.main.fieldOfView, minZoom, maxZoom);
+
+        if (Mouse.current.rightButton.isPressed) {
+            float mouseX = Mouse.current.delta.ReadValue().x;
+            float mouseY = Mouse.current.delta.ReadValue().y;
+            transform.eulerAngles += new Vector3(-mouseY, mouseX, 0);
+        }
     }
 }
