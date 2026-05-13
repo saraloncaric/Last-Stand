@@ -4,11 +4,17 @@ using UnityEngine.UI;
 public class MenuManager : MonoBehaviour
 {
     public GameObject menuPanel;
+    public PanelNavigacija panelNavigacija;
 
     void Start() {
         menuPanel.SetActive(false);
     }
+
     public void ToggleMenu() {
-        menuPanel.SetActive(!menuPanel.activeSelf);
+        bool trebaOtvoriti = !menuPanel.activeSelf;
+        menuPanel.SetActive(trebaOtvoriti);
+        if (trebaOtvoriti) {
+            panelNavigacija.PrikaziGlavniMeni();
+        }
     }
 }
