@@ -19,14 +19,12 @@ public class PanelNavigacija : MonoBehaviour
     }
 
     public void PrikaziHealth() {
-        Debug.Log("PrikaziHealth pozvan! MenuPanel aktivan: " + transform.parent?.gameObject.activeSelf);
         glavniMeniPanel.SetActive(false);
         healthPanel.SetActive(true);
         lokacijePanel.SetActive(false);
     }
 
     public void PrikaziLokacije() {
-        Debug.Log("PrikaziLokacije pozvan! MenuPanel aktivan: " + transform.parent?.gameObject.activeSelf);
         glavniMeniPanel.SetActive(false);
         healthPanel.SetActive(false);
         lokacijePanel.SetActive(true);
