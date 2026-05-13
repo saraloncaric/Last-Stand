@@ -549,17 +549,17 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 82273745}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 565811516}
-  m_Father: {fileID: 165444609}
+  m_Father: {fileID: 832974345}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -256, y: 181}
+  m_AnchoredPosition: {x: -256, y: 131}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &82273747
@@ -606,7 +606,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 699033385}
+      - m_Target: {fileID: 1833615230}
         m_TargetAssemblyTypeName: PanelNavigacija, Assembly-CSharp
         m_MethodName: PrikaziLokacije
         m_Mode: 1
@@ -1050,17 +1050,16 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 82273746}
-  - {fileID: 688702544}
+  - {fileID: 832974345}
   - {fileID: 295635277}
   - {fileID: 2074637942}
   - {fileID: 1188453311}
   m_Father: {fileID: 450499027}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMin: {x: 0.12480436, y: 0.8871494}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -0.1666565, y: -42}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchoredPosition: {x: -59.166656, y: -183}
+  m_SizeDelta: {x: 118, y: 360}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &165444610
 MonoBehaviour:
@@ -1517,7 +1516,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -86.65}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -456, y: 185.8}
+  m_AnchoredPosition: {x: 455, y: 185.8}
   m_SizeDelta: {x: 27, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &295635278
@@ -3129,17 +3128,17 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 688702543}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 2144198193}
-  m_Father: {fileID: 165444609}
+  m_Father: {fileID: 832974345}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -61, y: 180}
+  m_AnchoredPosition: {x: -61, y: 133}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &688702545
@@ -3186,7 +3185,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 699033385}
+      - m_Target: {fileID: 1833615230}
         m_TargetAssemblyTypeName: PanelNavigacija, Assembly-CSharp
         m_MethodName: PrikaziHealth
         m_Mode: 1
@@ -3269,53 +3268,6 @@ Transform:
   - {fileID: 2062238662}
   - {fileID: 26376211}
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &699033384
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 699033386}
-  - component: {fileID: 699033385}
-  m_Layer: 0
-  m_Name: PanelNavigacija
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &699033385
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 699033384}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7c941cafac247c8468142b90ca53314d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::PanelNavigacija
-  glavniMeniPanel: {fileID: 165444608}
-  healthPanel: {fileID: 2074637938}
-  lokacijePanel: {fileID: 1188453310}
---- !u!4 &699033386
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 699033384}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 941.7387, y: -12.8704605, z: 2671.2065}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 773910794}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &703471743
 PrefabInstance:
@@ -3821,7 +3773,7 @@ Transform:
   - {fileID: 400748356}
   - {fileID: 868681678}
   - {fileID: 1053619404}
-  - {fileID: 699033386}
+  - {fileID: 1833615231}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &773910795
@@ -4067,6 +4019,43 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &832974344
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 832974345}
+  m_Layer: 5
+  m_Name: Glavni Panel
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &832974345
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 832974344}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 82273746}
+  - {fileID: 688702544}
+  m_Father: {fileID: 165444609}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1001 &861390002
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4201,7 +4190,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MenuManager
   menuPanel: {fileID: 165444608}
-  panelNavigacija: {fileID: 699033385}
+  panelNavigacija: {fileID: 1833615230}
 --- !u!4 &868681678
 Transform:
   m_ObjectHideFlags: 0
@@ -4757,7 +4746,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1053619404}
   - component: {fileID: 1053619403}
-  - component: {fileID: 1053619405}
   m_Layer: 0
   m_Name: TowerHealthUI
   m_TagString: Untagged
@@ -4818,21 +4806,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 773910794}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1053619405
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1053619402}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7c941cafac247c8468142b90ca53314d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::PanelNavigacija
-  glavniMeniPanel: {fileID: 165444608}
-  healthPanel: {fileID: 2074637938}
-  lokacijePanel: {fileID: 1188453310}
 --- !u!1 &1106986055
 GameObject:
   m_ObjectHideFlags: 0
@@ -4869,7 +4842,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 454, y: 161}
+  m_AnchoredPosition: {x: -446, y: 161}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1106986057
@@ -4916,7 +4889,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 699033385}
+      - m_Target: {fileID: 1833615230}
         m_TargetAssemblyTypeName: PanelNavigacija, Assembly-CSharp
         m_MethodName: PrikaziGlavniMeni
         m_Mode: 1
@@ -5244,8 +5217,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: -21.499985}
+  m_SizeDelta: {x: 0, y: -43}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1188453312
 MonoBehaviour:
@@ -5290,19 +5263,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1188453313}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 699033385}
-        m_TargetAssemblyTypeName: PanelNavigacija, Assembly-CSharp
-        m_MethodName: PrikaziLokacije
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &1188453313
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5678,7 +5639,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 471.5, y: 184.8}
+  m_AnchoredPosition: {x: -388, y: 159.5}
   m_SizeDelta: {x: 117.3666, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1354276003
@@ -5725,7 +5686,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 699033385}
+      - m_Target: {fileID: 1833615230}
         m_TargetAssemblyTypeName: PanelNavigacija, Assembly-CSharp
         m_MethodName: PrikaziGlavniMeni
         m_Mode: 1
@@ -7597,6 +7558,53 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Health
   maxHealth: 10
   currentHealth: 0
+--- !u!1 &1833615229
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1833615231}
+  - component: {fileID: 1833615230}
+  m_Layer: 0
+  m_Name: PanelNavigacija
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1833615230
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1833615229}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c941cafac247c8468142b90ca53314d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PanelNavigacija
+  glavniMeniPanel: {fileID: 832974344}
+  healthPanel: {fileID: 2074637938}
+  lokacijePanel: {fileID: 1188453310}
+--- !u!4 &1833615231
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1833615229}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 451.99402, y: 87.487625, z: 166.25208}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 773910794}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1843394894
 GameObject:
   m_ObjectHideFlags: 0
@@ -9290,19 +9298,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2074637940}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 699033385}
-        m_TargetAssemblyTypeName: PanelNavigacija, Assembly-CSharp
-        m_MethodName: PrikaziHealth
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &2074637940
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9365,8 +9361,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -2.3667}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: -17.426483}
+  m_SizeDelta: {x: 0, y: -51.147}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1001 &2112843355
 PrefabInstance:
